@@ -1,0 +1,21 @@
+/* pages/index/index.wxss */
+/* 样式设计 */
+.container{
+  height: 100vh;  /* 高100的视窗，写100%无效 */
+  display: flex;  /* flex布局方法 */
+  flex-direction: column; /* 垂直布局 */
+  align-items: center;  /* 水平方向居中 */
+  justify-content: space-around; /*垂直方向分散布局*/
+}
+
+
+.aaa{
+  width: 300rpx;  /* 图片宽度 */
+  height: 300rpx; /* 图片高度 */
+  border-radius: 50%; /* 4个角变为原型形状 */
+}
+
+text{
+  font-size: 50rpx;
+  color: red;
+}
